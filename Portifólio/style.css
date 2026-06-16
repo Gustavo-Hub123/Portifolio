@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilex:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
+@import url('https://googleapis.com');
+@import url('https://fonts.googleapis.com/css2?family=Maitree:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    /* border: 1px solid red;   */
+    font-family: "Google Sans Flex";
+}
+body{
+    width: 100%;
+    height: 98vh;
+    background: #111844;
+    background: linear-gradient(180deg, rgba(17, 24, 68, 1) 0%, rgba(114, 136, 174, 1) 100%);
+}
+.cabecalho{
+    display: flex;
+    border-bottom: 1px solid white;
+    color: white;
+    width: 30%;
+    gap: 5%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.home{
+    margin-left: 10%;
+}
+.porti:hover{
+    text-decoration: underline;
+}
+.blog{
+}
+.principal{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 90vh;
+}
+.principal-superior{
+  /* border: 1px solid white;  */
+  width: 30%; 
+}
+
+.descricao{
+    font-family: 'Lilex';
+    display: flex;
+    width: 80%;
+    position: relative;
+    top: 8vh; 
+    font-size: 40px;
+    margin-left: 7%;
+    color: white;
+    font-weight: 350;
+    
+}
+.conheca{
+    font-family: 'Lustria';
+    margin-left: 7%;
+    color: white;
+    font-size: 24px;
+    position: relative;
+    top: 17vh;
+}
+.imagens-projetos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: center;
+    height: 50vh;
+    position: relative;
+    top: 6vh
+}
+.imagens-projetos-links{
+align-self: center;
+}
+.img-canva{
+    width: 200px;
+    
+}
+.img-figma{
+    width: 200px;
+    
+}
+.separador{
+    
+}
+.principal-direito{
+    padding: 1%;
+    float: right;
+    margin-left: 9%;
+    width: 57%;
+    height: 91vh;
+    background-color: white;
+    
+}
+.cima{
+    
+}
+.nome{
+    font-family: 'Changa One';
+    font-size: 45px;
+    font-weight: 10;
+    padding-left: 7%;
+    position: relative;
+    top: 4vh;
+}
+.de{
+    font-family: 'Carattere';
+    font-weight: 350;
+    font-size: 41px;
+    display: flex;
+    padding-left: 24%;
+    position: relative;
+    top: -6px;
+}
+.almeida{
+    font-family: 'Changa One';
+    font-size: 45px;
+    font-weight: 10;
+    padding-left: 7%;
+    position: relative;
+    top: -18px;
+    color: white;
+    -webkit-text-stroke: 0.8px black;
+}
+.s{
+    font-family: 'Changa One';
+    font-size: 45px;
+    font-weight: 10;
+    padding-left: 23.8%;
+    position: relative;
+    top: -67.7px;
+}
+.ilva{
+    font-family: 'Changa One';
+    font-size: 45px;
+    font-weight: 10;
+    padding-left: 26.1%;
+    position: relative;
+    top: -114px;
+    color: white;
+    -webkit-text-stroke: 0.8px black;
+}
+.sou{
+    font-family: 'Arial';
+    font-size: 18px;
+    width: 400px;
+    padding-left: 6.7%;
+    position: relative;
+    top: -100px;
+    font-weight: 1;
+}
+.expe{
+    font-family: 'M PLUS 1p';
+    font-size: 19px;
+    width: 400px;
+    padding-left: 6.7%;
+    position: relative;
+    top: -90px;
+    font-weight: bold ;
+}
+.estou{
+    font-family: 'Arial';
+    font-size: 18px;
+    width: 430px;
+    padding-left: 6.7%;
+    position: relative;
+    top: -80px;
+    font-weight: 1; 
+}
+.ja{
+    font-family: 'Arial';
+    font-size: 18px;
+    width: 430px;
+    padding-left: 6.7%;
+    position: relative;
+    top: -70px;
+    font-weight: 1; 
+}
+.tenho{
+    font-family: 'Arial';
+    font-size: 18px;
+    width: 430px;
+    padding-left: 6.7%;
+    position: relative;
+    top: -60px;
+    font-weight: 1; 
+}
+.trabalho{
+    font-family: 'Arial';
+    font-size: 18px;
+    width: 430px;
+    padding-left: 6.7%;
+    position: relative;
+    top: -50px;
+    font-weight: 1; 
+}
+.projetos{
+    font-family: 'M PLUS 1p';
+    font-size: 19px;
+    width: 400px;
+    padding-left: 6.7%;
+    position: relative;
+    top: -40px;
+    font-weight: bold ;
+}
+.no{
+    font-family: 'Arial';
+    font-size: 18px;
+    width: 430px;
+    padding-left: 6.7%;
+    position: relative;
+    top: -30px;
+    font-weight: 1; 
+}
+.habilidades{
+    font-family: 'M PLUS 1p';
+    font-size: 19px;
+    width: 400px;
+    padding-left: 6.7%;
+    position: relative;
+    top: -20px;
+    font-weight: bold ;
+}
+.souu{
+    font-family: 'Arial';
+    font-size: 18px;
+    width: 430px;
+    padding-left: 6.7%;
+    position: relative;
+    top: -10px;
+    font-weight: 1;
+}
+.pretendo{
+    font-family: 'Arial';
+    font-size: 18px;
+    width: 430px;
+    padding-left: 6.7%;
+    position: relative;
+    top: 0px;
+    font-weight: 1;
+}
+.saiba{
+    text-decoration: underline;
+    font-family: "Maitree", serif;
+    background-color: #B3B3B3;
+    color: #FFFFFF;          
+    padding: 8px 20px;        
+    font-size: 20px;           
+    border: none;              
+    border-radius: 4px;        
+    cursor: pointer;           
+    position: relative;
+    top: 50px;
+    margin-left: 6.7%;
+}
+.Telefo{
+    font-size: 15px;
+    padding-left: 36%;
+    position: relative;
+}
+.img-tele{
+    padding-left: 36%;
+    position: relative;
+    top: -57px;
+}
+.numte{
+    padding-left: 38.8%;
+    font-size: 15px;
+    font-weight: 100;
+    position: relative;
+    top: -12.5px;
+}
+.img-email{
+    padding-left: 25%;
+    position: relative;
+    top: -55px;
+}
+.Email{
+    padding-left: 64%;
+    position: relative;
+    top: -20px;
+
+}
+.emailcont{
+    padding-left: 66.5%;
+    position: relative;
+    top: -32px;
+    font-weight: 200;
+}
