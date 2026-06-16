@@ -103,6 +103,14 @@ align-self: center;
 .cima{
     
 }
+.foto{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: relative;
+    left: 680px;
+    top: -780px;  
+}
 .nome{
     font-family: 'Changa One';
     font-size: 45px;
